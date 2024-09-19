@@ -42,7 +42,7 @@ mkdir -p $CONDADIR/lib
 
 curl -SL $MINICONDA \
   -o miniconda.sh \
-    && /bin/zsh miniconda.sh -b -f -p $CONDADIR
+    && /bin/bash miniconda.sh -b -f -p $CONDADIR
 
 source $CONDADIR/bin/activate
 export PYVERSION=$(python3 -c "import sys; print(str(sys.version_info[0])+'.'+str(sys.version_info[1]))")
