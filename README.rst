@@ -53,7 +53,7 @@ Bash convenience functions::
         git clone -b $branch https://github.com/1cosmologist/cmbenv ${tmp_build_dir}
         cd ${tmp_build_dir}
         # echo $PATH
-        echo `which python`
+        echo `which python3`
         CONF=perlmutter PKGS=default PREFIX=${cmbprefix} ./install.sh |& tee install-${CMBENVVERSION}.log
     }
 
@@ -88,8 +88,9 @@ On MacOS::
         rm -rf ${tmp_build_dir}
         git clone -b $branch https://github.com/1cosmologist/cmbenv ${tmp_build_dir}
         cd ${tmp_build_dir}
+        chmod a+x ./mac-install.sh
         # echo $PATH
-        echo `which python`
+        echo `which python3`
         CONF=mac PKGS=mac-default PREFIX=${cmbprefix} ./mac-install.sh |& tee install-${CMBENVVERSION}.log
     }
 
