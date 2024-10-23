@@ -9,6 +9,7 @@ conda config --set solver libmamba
 conda config --set channel_priority flexible
 conda install --yes -c conda-forge -c anaconda -c apple -c defaults \
     astropy \
+    blackjax \
     camb \
     cfitsio \
     cython \
@@ -26,8 +27,10 @@ conda install --yes -c conda-forge -c anaconda -c apple -c defaults \
     namaster \
     scipy \
     numba \
+    numpyro \
     pkg-config \
     pygtc \
+    pymc \
     pysm3 \
     tqdm \
     meson \
