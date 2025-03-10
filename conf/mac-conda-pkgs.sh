@@ -15,6 +15,7 @@ conda install --yes -c conda-forge -c anaconda -c apple -c defaults \
     cython \
     emcee \
     fftw \
+    glob \
     gsl \
     healpy \
     ipython \
@@ -23,15 +24,16 @@ conda install --yes -c conda-forge -c anaconda -c apple -c defaults \
     jupyter \
     matplotlib \
     mpi4py \
-    numpy \
     namaster \
-    scipy \
     numba \
+    numpy \
     numpyro \
     pkg-config \
     pygtc \
     pymc \
     pysm3 \
+    pytensor \
+    scipy \
     tqdm \
     meson \
  
