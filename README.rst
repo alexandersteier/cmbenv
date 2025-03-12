@@ -50,7 +50,7 @@ Bash convenience functions::
         rm -rf $cmbprefix/$CMBENVVERSION
         tmp_build_dir=$SCRATCH/cmbenv
         rm -rf ${tmp_build_dir}
-        git clone -b $branch https://github.com/1cosmologist/cmbenv ${tmp_build_dir}
+        git clone -b $branch https://github.com/alexandersteier/cmbenv ${tmp_build_dir}
         cd ${tmp_build_dir}
         # echo $PATH
         echo `which python`
