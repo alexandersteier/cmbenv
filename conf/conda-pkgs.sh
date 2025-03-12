@@ -9,27 +9,21 @@ conda config --set solver libmamba
 conda config --set channel_priority flexible
 conda install --yes -c conda-forge -c anaconda -c nvidia -c defaults \
     astropy \
-    blackjax \
     camb \
     emcee \
     fitsio \
-    glob \
     gputil \
     healpy \
     ipython \
-    jax \
     joblib \
     jupyter \
     matplotlib \
-    mpi4py \
     namaster \
     numpy \
-    numpyro \
     numba \
     pygtc \
     pymc \
     pysm3 \
-    pytensor \
     scipy \
     skytools \
     tqdm \
