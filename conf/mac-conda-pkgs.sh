@@ -30,9 +30,7 @@ conda install --yes -c conda-forge -c anaconda -c apple -c defaults \
     numpyro \
     pkg-config \
     pygtc \
-    pymc \
     pysm3 \
-    pytensor \
     scipy \
     tqdm \
     meson \
